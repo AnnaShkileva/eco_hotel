@@ -1,0 +1,106 @@
+#authorization_warning {
+    text-align: center;
+    color: red;
+}
+
+#selection_nutrition {
+    margin: 0 auto;
+}
+
+.img_person {
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid var(--brown);
+    height: 48px;
+    padding: 2px;
+}
+
+.s_nutrition {
+    width: 200px;
+    display: inline-block;
+}
+
+
+#selection_block {
+    margin: 0 auto;
+}
+
+.room_class_block {
+    padding: 5px;
+    background-color: var(--green);
+    color: white;
+    margin-top: 5px;
+}
+
+.room_block {
+    border-bottom: 1px solid var(--brown);
+    margin-top: 5px;
+}
+
+.room_block > * {
+    display: inline-block;
+}
+
+.room_img {
+    width: 150px;
+    height: 100px;
+}
+
+.s_plus_block {
+    cursor: default;
+    position: relative;
+    bottom: 40px;
+    vertical-align: middle;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid var(--brown);
+    font-weight: bolder;
+    background-color: white;
+}
+
+#confirmation {
+    position: fixed;
+    top: 100px;
+    right: auto;
+    left: 490PX;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid var(--brown);
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+#confirmation > h3 {
+    color: red;
+}
+
+#confirmation > p {
+    border-bottom: 1px solid var(--brown);
+}
+
+#confirmation > div {
+    padding: 5px;
+}
+
+#btn_to_book {
+    margin: 20px;
+}
+
+
+
+#finish_message {
+    position: fixed;
+    left: 500px;
+    display: none;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #eee743;
+    width: 300px;
+    height: auto;
+    border: 1px solid var(--brown);
+    border-radius: 7px;
+    z-index: 100;
+    text-align: center;
+    font-size: 120%;
+
+}

@@ -1,0 +1,18 @@
+#footer {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    background-color: var(--green);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+#footer > div {
+    grid-column: 1fr;
+}
+
+#icons img {
+    height: 40px;
+    width: auto;
+}

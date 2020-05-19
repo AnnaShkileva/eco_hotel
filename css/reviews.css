@@ -1,0 +1,38 @@
+h2 {
+    margin: 10px;
+}
+
+.review_block {
+    margin: 0 auto 20px auto;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid var(--brown);
+}
+
+.user {
+    border-bottom: 1px dashed var(--brown);
+    font-size: 120%;
+    margin: 10px;
+}
+
+.review {
+    text-align: center;
+    padding: 10px;
+}
+
+#btn_review_block {
+    text-align: center;
+}
+
+@media screen and (min-width:800px) {
+
+    h2 {
+        margin: 20px;
+    }
+
+    .review_block {
+        width: 600px;
+    }
+}
+
+;

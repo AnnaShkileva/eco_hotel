@@ -1,0 +1,107 @@
+h2 {
+    margin: 10px 0;
+}
+
+h3 {
+    color: var(--brown);
+    text-align: center;
+    font-weight: 200;
+}
+
+#restaurant {
+    display: block;
+    padding: 10px;
+}
+
+#description {
+    margin: 20px;
+
+}
+
+p {
+    padding: 5px;
+}
+
+#list_nutrition {
+    width: 180px;
+    margin: 0 auto;
+    color: var(--brown);
+
+}
+
+#food_block {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-bottom: 20px;
+}
+
+.food {
+    margin: 5px 10%;
+}
+
+.food:nth-child(1) {
+    grid-row: 1;
+}
+
+.food:nth-child(2) {
+    grid-row: 2;
+}
+
+.food:nth-child(3) {
+    grid-row: 3;
+}
+
+.img_food {
+    width: 100%;
+
+
+}
+
+@media screen and (min-width:800px) {
+    * {
+
+        font-style: normal;
+    }
+
+    h2 {
+        margin: 20px 0;
+    }
+
+    #restaurant {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #restaurant:first-child {
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+
+    #restaurant:last-child {
+        grid-column: 2/-1;
+        grid-row: 1;
+    }
+
+    #food_block {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+
+    }
+
+    .food:nth-child(1) {
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+
+    .food:nth-child(2) {
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+
+    .food:nth-child(3) {
+        grid-column: 3/-1;
+        grid-row: 1;
+    }
+}

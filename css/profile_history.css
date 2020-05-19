@@ -1,0 +1,14 @@
+#content {
+    margin-bottom: 300px;
+    color: var(--brown);
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+}
+
+th {
+    border: 1px solid var(--brown);
+    padding: 5px;
+}

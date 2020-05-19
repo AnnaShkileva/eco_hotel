@@ -1,0 +1,26 @@
+#content {
+    color: var(--brown);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2,
+h3 {
+    margin: 10px;
+
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.img_room {
+    width: 150px;
+    height: 100px;
+}
+
+@media screen and (min-width:800px) {
+    p {
+        margin: 0 15%;
+    }
+}
